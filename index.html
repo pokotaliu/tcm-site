@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>診斷手冊</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Iansui&family=LXGW+WenKai+TC:wght@400;700&display=swap">
+<link rel="stylesheet" href="/tcm-site/static/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='25' font-size='24'%3E%E8%A8%BA%3C/text%3E%3C/svg%3E">
+</head>
+<body class="">
+<header>
+  <nav>
+    <a href="/tcm-site/" class="brand">診斷手冊</a>
+    <a href="/tcm-site/sx/">症狀</a>
+    <a href="/tcm-site/zx/">證型</a>
+    <a href="/tcm-site/diagnose/">診斷</a>
+    <a href="/tcm-site/evo/">演化圖</a>
+    <a href="/tcm-site/notes/" class="nav-notes">筆記</a>
+    <a href="/tcm-site/db">db</a>
+  </nav>
+  <form action="/tcm-site/search/" method="get" class="searchbox">
+    <input type="search" name="q" placeholder="搜 症狀／證型／疾病／中藥／方藥"
+           value="">
+    <button>搜尋</button>
+  </form>
+</header>
+<main>
+
+
+
+<section class="hero">
+  <h1>診間查詢</h1>
+  <form class="hero-search" action="/tcm-site/search/" method="get" role="search">
+    <input type="search" name="q" autofocus autocomplete="off" spellcheck="false"
+           placeholder="搜 症狀／證型／疾病／中藥／方藥" value="">
+    <button>搜尋</button>
+  </form>
+  <div class="entries">
+    <a class="entry" href="/tcm-site/diagnose/">
+      <span class="entry-name">診斷查詢器</span>
+      <span class="entry-say">輸入一串症狀 → 證型主榜、追問建議、鑑別提示</span>
+    </a>
+    <a class="entry" href="/tcm-site/sx/">
+      <span class="entry-name">症狀小卡</span>
+      <span class="entry-say">單一症狀的同義群、鑑別鄰症與相關證型</span>
+    </a>
+    <a class="entry" href="/tcm-site/zx/">
+      <span class="entry-name">證型小卡</span>
+      <span class="entry-say">證型全貌：證素、症狀邊、鄰居鑑別、治療參考</span>
+    </a>
+  </div>
+</section>
+
+
+
+<section class="block notes-teaser">
+  <h2 class="hand">✎ 筆記專區 <a class="hand-more" href="/tcm-site/notes/">全部專題 →</a></h2>
+  <div class="note-grid">
+    
+    <a class="note-card" href="/tcm-site/notes/衷中-升陷湯">
+      <span class="note-title">升陷湯：胸中大氣下陷的主方</span>
+      <span class="note-sum">讀這一方，先要分清「短氣」和「喘」。張錫純把胸中撐持呼吸的那一口氣叫作大氣；大氣陷下去時，病人努力呼吸，看起來像喘。醫者若當喘去降、當鬱去開，等於把人往井裡推。方子只有五味藥：一味補、一味濟、兩路升提、一舟載上，沒有一味是閒筆。</span>
+      <span class="note-meta">2026-10-02 · #醫學衷中參西錄 · #張錫純 · #大氣下陷 · #方劑</span>
+    </a>
+    
+    <a class="note-card" href="/tcm-site/notes/衷中-論肢體痿廢之原因及治法">
+      <span class="note-title">論肢體痿廢之原因及治法：中西之說皆不可廢</span>
+      <span class="note-sum">痿廢是一個結果，不是一個病因。張錫純先擺出舊說五家與西人的腦髓神經說，接著不爭辯，而是一家一家拿親手治過的人來作證：肺熱、中風、氣虛、痰瘀、血瘀、風寒濕痹，各有一驗；最後把最危險的一條——腦充血——單獨拿出來講透。結論只有一句：中西之說皆不可廢。</span>
+      <span class="note-meta">2026-10-02 · #醫學衷中參西錄 · #張錫純 · #醫論 · #痿廢 · #腦充血</span>
+    </a>
+    
+    <a class="note-card" href="/tcm-site/notes/衷中-醫案-氣病門">
+      <span class="note-title">醫案·氣病門：大氣下陷五案與氣逆四案</span>
+      <span class="note-sum">醫案部氣病門共九案，正好分成方向相反的兩組：前五案是大氣下陷，往上托；後四案是沖氣、胃氣上逆，往下鎮。每案都照病因、證候、診斷、處方、效果寫成，是張錫純晚年最規整的病歷。兩組並讀，升與降、柴胡與赭石，在同一門裡互相照見。</span>
+      <span class="note-meta">2026-10-02 · #醫學衷中參西錄 · #張錫純 · #醫案 · #大氣下陷</span>
+    </a>
+    
+  </div>
+</section>
+
+
+
+
+<section class="block">
+  <h2>四軸資產</h2>
+  <div class="axes">
+
+    <a class="axis" href="/tcm-site/evo/">
+      <span class="axis-num">178</span>
+      <span class="axis-name">鄰居／演化圖 <span class="axis-unit">無向對</span></span>
+      <span class="axis-sub">絕對級 22　教科書級 156　分量 59</span>
+      <span class="axis-say">證型之間的演變與鑑別鄰接，點入看演化圖</span>
+    </a>
+
+    <a class="axis" href="/tcm-site/db/邊界_鑑別症狀">
+      <span class="axis-num">2,459</span>
+      <span class="axis-name">邊界 <span class="axis-unit">鑑別症狀邊</span></span>
+      <span class="axis-sub">鑑別對 1,023</span>
+      <span class="axis-say">兩證易混時，哪些症狀才分得開</span>
+    </a>
+
+    <a class="axis" href="/tcm-site/db/證素">
+      <span class="axis-num">78</span>
+      <span class="axis-name">證素 <span class="axis-unit">病性＠病位</span></span>
+      <span class="axis-sub">證型橋 1,322</span>
+      <span class="axis-say">證型拆成證素，跨證型可比可組合</span>
+    </a>
+
+    <a class="axis" href="/tcm-site/db/病程_階段">
+      <span class="axis-num">129</span>
+      <span class="axis-name">病程 <span class="axis-unit">階段</span></span>
+      <span class="axis-sub">證型掛載 245　轉折 150</span>
+      <span class="axis-say">同一病在不同階段走成哪些證</span>
+    </a>
+
+  </div>
+
+  <h3>小卡覆蓋率</h3>
+  
+  
+  <div class="meter-row">
+    <a class="meter-label" href="/tcm-site/zx/">證型</a>
+    <div class="meter"><div class="meter-fill" style="width: 62.9%"></div></div>
+    <span class="meter-num">502／798（62.9%）</span>
+  </div>
+  
+  
+  <div class="meter-row">
+    <a class="meter-label" href="/tcm-site/sx/">症狀</a>
+    <div class="meter"><div class="meter-fill" style="width: 10.3%"></div></div>
+    <span class="meter-num">111／1078（10.3%）</span>
+  </div>
+  
+</section>
+
+
+
+
+
+</main>
+<footer>唯讀鏡像 · 真相源＝_pipeline／小卡量產 · 診斷手冊 Web<br>
+古籍引文＝公有領域逐字原文；現行教科書內容均為部份引用（簡體原文已轉繁體），出處標註於各條目</footer>
+</body>
+</html>

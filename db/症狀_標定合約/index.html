@@ -1,0 +1,572 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>症狀_標定合約 · db</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Iansui&family=LXGW+WenKai+TC:wght@400;700&display=swap">
+<link rel="stylesheet" href="/tcm-site/static/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='25' font-size='24'%3E%E8%A8%BA%3C/text%3E%3C/svg%3E">
+</head>
+<body class="">
+<header>
+  <nav>
+    <a href="/tcm-site/" class="brand">診斷手冊</a>
+    <a href="/tcm-site/sx/">症狀</a>
+    <a href="/tcm-site/zx/">證型</a>
+    <a href="/tcm-site/diagnose/">診斷</a>
+    <a href="/tcm-site/evo/">演化圖</a>
+    <a href="/tcm-site/notes/" class="nav-notes">筆記</a>
+    <a href="/tcm-site/db">db</a>
+  </nav>
+  <form action="/tcm-site/search/" method="get" class="searchbox">
+    <input type="search" name="q" placeholder="搜 症狀／證型／疾病／中藥／方藥"
+           value="">
+    <button>搜尋</button>
+  </form>
+</header>
+<main>
+
+<h1><a href="/tcm-site/db">db</a> › 症狀_標定合約 <span class="muted">22 筆</span></h1>
+
+<p class="muted">靜態鏡像：排序／篩選請用本機版（<code>python3 web/app.py</code>）</p>
+
+
+
+<div class="tablewrap"><table>
+<thead><tr>
+  <th>症狀id</th>
+
+  <th>納入判準</th>
+
+  <th>排除判準</th>
+
+  <th>正例</th>
+
+  <th>正例出處</th>
+
+  <th>反例</th>
+
+  <th>狀態</th>
+</tr></thead>
+<tbody>
+<tr>
+  
+  <td>2</td>
+
+  
+  <td>怕冷而加衣覆被、近火取暖不能緩解者；雖居密室內仍覺全身發冷者</td>
+
+  
+  <td>得溫（加衣/近火）則緩解＝[[畏寒]]（多屬內傷陽氣不足）；僅遇風始覺怕冷、避風則緩＝[[惡風]]；怕冷且軀體顫振＝[[寒戰]]（程度更重：輕則惡風，重則寒戰）</td>
+
+  
+  <td>惡寒者不受風吹即有怕冷的感覺，雖居內室內，甚加衣覆被近火取暖仍覺全身發冷</td>
+
+  
+  <td>p0047</td>
+
+  
+  <td>「四肢欠溫、近火稍緩」屬[[畏寒]]（得溫則減）非惡寒；「遇風吹始覺怕冷」屬[[惡風]]</td>
+
+  
+  <td>文本確認</td>
+</tr>
+
+<tr>
+  
+  <td>752</td>
+
+  
+  <td></td>
+
+  
+  <td>外傷（金刃跌打）所致出血不收</td>
+
+  
+  <td></td>
+
+  
+  <td></td>
+
+  
+  <td>跌打金刃之出血＝外傷，非本傘</td>
+
+  
+  <td>llm知識</td>
+</tr>
+
+<tr>
+  
+  <td>751</td>
+
+  
+  <td></td>
+
+  
+  <td>生理性汗出（暑熱、運動後，止則如常）不收</td>
+
+  
+  <td></td>
+
+  
+  <td></td>
+
+  
+  <td>劇烈運動後遍身汗出、休息即止＝生理汗，非病理汗出</td>
+
+  
+  <td>llm知識</td>
+</tr>
+
+<tr>
+  
+  <td>733</td>
+
+  
+  <td></td>
+
+  
+  <td>熱感兼心煩不寧屬[[煩熱]]（最窄傘優先）；寒熱交替屬[[寒熱往來]]（複合詞條非亞型）</td>
+
+  
+  <td></td>
+
+  
+  <td></td>
+
+  
+  <td>兩手足心熱兼心胸煩熱＝[[五心煩熱]]（煩熱族），非單純發熱</td>
+
+  
+  <td>llm知識</td>
+</tr>
+
+<tr>
+  
+  <td>803</td>
+
+  
+  <td></td>
+
+  
+  <td>經期伴隨他症（經行發熱/經行口糜類）屬各該症狀之情境子項</td>
+
+  
+  <td></td>
+
+  
+  <td></td>
+
+  
+  <td>經行口糜＝口糜的經行情境變體，非月經不調</td>
+
+  
+  <td>llm知識</td>
+</tr>
+
+<tr>
+  
+  <td>786</td>
+
+  
+  <td></td>
+
+  
+  <td>經吐而出屬[[吐血]]、隨咳屬[[咳血]]、隨便尿屬[[便血]]/[[尿血]]</td>
+
+  
+  <td></td>
+
+  
+  <td></td>
+
+  
+  <td>咳嗽引動、痰中帶血＝[[咳血]]族，非衄血</td>
+
+  
+  <td>llm知識</td>
+</tr>
+
+<tr>
+  
+  <td>644</td>
+
+  
+  <td></td>
+
+  
+  <td>口中味覺異常（苦/甜/黏）而不乾者屬口味類另條</td>
+
+  
+  <td></td>
+
+  
+  <td></td>
+
+  
+  <td>口苦口黏而不乾＝口味異常，非口渴</td>
+
+  
+  <td>llm知識</td>
+</tr>
+
+<tr>
+  
+  <td>804</td>
+
+  
+  <td></td>
+
+  
+  <td>經血非時而下屬[[崩漏]]；產後惡露屬產後專條</td>
+
+  
+  <td></td>
+
+  
+  <td></td>
+
+  
+  <td>產後惡露淋漓不斷＝惡露類，非帶下</td>
+
+  
+  <td>llm知識</td>
+</tr>
+
+<tr>
+  
+  <td>731</td>
+
+  
+  <td></td>
+
+  
+  <td>上腹歧骨下胃脘部疼痛屬[[胃脘痛]]</td>
+
+  
+  <td></td>
+
+  
+  <td></td>
+
+  
+  <td>上腹近歧骨處痛＝胃脘痛，非本傘</td>
+
+  
+  <td>llm知識</td>
+</tr>
+
+<tr>
+  
+  <td>814</td>
+
+  
+  <td></td>
+
+  
+  <td>全身主觀怕冷而四肢捫之不涼者屬畏寒類感覺</td>
+
+  
+  <td></td>
+
+  
+  <td></td>
+
+  
+  <td>自覺怕冷、四肢捫之不涼＝畏寒，非肢冷</td>
+
+  
+  <td>llm知識</td>
+</tr>
+
+<tr>
+  
+  <td>704</td>
+
+  
+  <td></td>
+
+  
+  <td>耳中鳴響而聽力未減屬[[耳鳴]]</td>
+
+  
+  <td></td>
+
+  
+  <td></td>
+
+  
+  <td>耳中蟬鳴、聽力如常＝耳鳴，非耳聾</td>
+
+  
+  <td>llm知識</td>
+</tr>
+
+<tr>
+  
+  <td>716</td>
+
+  
+  <td></td>
+
+  
+  <td>淚熱屬[[熱淚]]</td>
+
+  
+  <td></td>
+
+  
+  <td></td>
+
+  
+  <td>迎風淚出而溫熱＝迎風熱淚，非冷淚</td>
+
+  
+  <td>llm知識</td>
+</tr>
+
+<tr>
+  
+  <td>717</td>
+
+  
+  <td></td>
+
+  
+  <td>淚清冷屬[[冷淚]]</td>
+
+  
+  <td></td>
+
+  
+  <td></td>
+
+  
+  <td>無時淚下清冷＝冷淚族，非熱淚</td>
+
+  
+  <td>llm知識</td>
+</tr>
+
+<tr>
+  
+  <td>791</td>
+
+  
+  <td></td>
+
+  
+  <td>幅小頻顫無拘急者屬顫動類</td>
+
+  
+  <td></td>
+
+  
+  <td></td>
+
+  
+  <td>手指蠕動、幅小頻顫＝顫動類，非抽搐</td>
+
+  
+  <td>llm知識</td>
+</tr>
+
+<tr>
+  
+  <td>732</td>
+
+  
+  <td></td>
+
+  
+  <td>紅赤無腫屬[[面色紅]]</td>
+
+  
+  <td></td>
+
+  
+  <td></td>
+
+  
+  <td>面紅如妝而不腫＝面色紅（戴陽類），非紅腫</td>
+
+  
+  <td>llm知識</td>
+</tr>
+
+<tr>
+  
+  <td>647</td>
+
+  
+  <td></td>
+
+  
+  <td>口舌散在瘡點未糜爛成片屬[[口瘡]]</td>
+
+  
+  <td>經行口糜是指伴隨月經周期反复出現口舌生瘡，糜爛的症狀</td>
+
+  
+  <td>p0448</td>
+
+  
+  <td>口舌散在瘡點未成糜＝口瘡，非口糜</td>
+
+  
+  <td>llm知識</td>
+</tr>
+
+<tr>
+  
+  <td>736</td>
+
+  
+  <td></td>
+
+  
+  <td>定時而發的持續熱屬[[潮熱]]（發熱族）</td>
+
+  
+  <td>烘熱面赤，汗出，四肢不溫</td>
+
+  
+  <td>p0150</td>
+
+  
+  <td>日晡定時熱升＝潮熱（發熱族），非烘熱</td>
+
+  
+  <td>llm知識</td>
+</tr>
+
+<tr>
+  
+  <td>740</td>
+
+  
+  <td></td>
+
+  
+  <td>兼心胸煩熱不寧＝[[五心煩熱]]（煩熱族）</td>
+
+  
+  <td>兩手心、足心發熱及自覺心胸煩熱，而體溫有的升高，有的并不升高</td>
+
+  
+  <td>p0062</td>
+
+  
+  <td>手足心熱兼心胸煩熱＝五心煩熱，非單純手足心熱</td>
+
+  
+  <td>llm知識</td>
+</tr>
+
+<tr>
+  
+  <td>827</td>
+
+  
+  <td></td>
+
+  
+  <td>但熱不煩屬[[發熱]]族</td>
+
+  
+  <td>五心煩熱是指兩手心、足心發熱及自覺心胸煩熱</td>
+
+  
+  <td>p0062</td>
+
+  
+  <td>壯熱面赤而神清不煩＝壯熱（發熱族），非煩熱</td>
+
+  
+  <td>llm知識</td>
+</tr>
+
+<tr>
+  
+  <td>869</td>
+
+  
+  <td></td>
+
+  
+  <td>滿悶按之濡軟＝痞類（痞按之濡）</td>
+
+  
+  <td>心下硬滿，懊憹不宁，甚則從心中至少腹硬痛拒按</td>
+
+  
+  <td>p0318</td>
+
+  
+  <td>心下滿悶按之柔軟不痛＝痞證，非硬滿</td>
+
+  
+  <td>llm知識</td>
+</tr>
+
+<tr>
+  
+  <td>873</td>
+
+  
+  <td></td>
+
+  
+  <td>色黃屬[[小便黃]]</td>
+
+  
+  <td>腰膝痠冷，小便清長頻數</td>
+
+  
+  <td>p0049</td>
+
+  
+  <td>小便色黃短少＝小便黃族，非小便清</td>
+
+  
+  <td>llm知識</td>
+</tr>
+
+<tr>
+  
+  <td>759</td>
+
+  
+  <td></td>
+
+  
+  <td>色清屬[[小便清]]</td>
+
+  
+  <td>小便短黃或黃赤，甚者色如濃茶</td>
+
+  
+  <td>p0381</td>
+
+  
+  <td>小便清長頻數＝小便清族，非小便黃</td>
+
+  
+  <td>llm知識</td>
+</tr>
+</tbody></table></div>
+
+
+<div class="pager">
+  
+  <span>1／1</span>
+  
+</div>
+
+</main>
+<footer>唯讀鏡像 · 真相源＝_pipeline／小卡量產 · 診斷手冊 Web<br>
+古籍引文＝公有領域逐字原文；現行教科書內容均為部份引用（簡體原文已轉繁體），出處標註於各條目</footer>
+</body>
+</html>

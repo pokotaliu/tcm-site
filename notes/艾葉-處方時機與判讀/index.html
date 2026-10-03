@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>艾葉：什麼時候開、怎麼判讀 · 筆記</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Iansui&family=LXGW+WenKai+TC:wght@400;700&display=swap">
+<link rel="stylesheet" href="/tcm-site/static/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='25' font-size='24'%3E%E8%A8%BA%3C/text%3E%3C/svg%3E">
+</head>
+<body class="notes-page">
+<header>
+  <nav>
+    <a href="/tcm-site/" class="brand">診斷手冊</a>
+    <a href="/tcm-site/sx/">症狀</a>
+    <a href="/tcm-site/zx/">證型</a>
+    <a href="/tcm-site/diagnose/">診斷</a>
+    <a href="/tcm-site/evo/">演化圖</a>
+    <a href="/tcm-site/notes/" class="nav-notes">筆記</a>
+    <a href="/tcm-site/db">db</a>
+  </nav>
+  <form action="/tcm-site/search/" method="get" class="searchbox">
+    <input type="search" name="q" placeholder="搜 症狀／證型／疾病／中藥／方藥"
+           value="">
+    <button>搜尋</button>
+  </form>
+</header>
+<main>
+
+<article class="notebook" id="note">
+  
+  <section class="sheet">
+    
+    <p class="hand-back"><a href="/tcm-site/notes/">← 筆記專區</a></p>
+    
+    <h1 class="title">艾葉：什麼時候開、怎麼判讀</h1>
+    <p class="sub">整理教科書與古方裡艾葉的處方時機：虛寒暖宮、氣血虛出血、妊娠下血、因寒吐血，以及各家的判讀分歧。</p>
+    <div class="card"><i class="tape"></i>
+      <dl>
+          <dt>日期</dt><dd>2026-09-30</dd>
+          <dt>標籤</dt><dd>#本草 #婦科 #止血 </dd></dl>
+    </div>
+    <p class="legend"><span>黑筆＝整理</span><span class="r">紅筆＝批註</span><span><span class="hl">黃螢光</span>＝關鍵句</span><span><span class="hl2">綠螢光</span>＝治法</span><span><span class="ci">紅圈</span>＝要記住的詞</span><span><a class="wl k-zx" href="#links-sheet">藍字</a>＝連到資料庫／其他筆記</span></p>
+    <div class="tools" role="toolbar" aria-label="閱讀工具">
+      <input type="search" id="nfilter" placeholder="篩選：輸入症狀／方名／藥名，表格與條列即時過濾" autocomplete="off" aria-label="篩選筆記內容">
+      <button type="button" id="t-note" aria-pressed="true">批註</button>
+      <button type="button" id="t-hl" aria-pressed="true">螢光筆</button>
+      <span class="muted" id="nhit"></span>
+    </div>
+    <nav class="toc" id="toc" aria-label="章節"></nav>
+    
+  </section>
+  
+
+  
+  <section class="sheet" id="mindmap-sheet">
+    <h2 class="sec"><span class="no">圖</span>心智圖</h2>
+    <p class="note">點節點可收合／展開；「全部展開」「全部收合」在右上。</p>
+    <div class="mm-tools"><button type="button" id="mm-open">全部展開</button><button type="button" id="mm-close">全部收合</button></div>
+    <div class="mm-wrap"><svg id="mm" role="img" aria-label="本篇心智圖"></svg></div>
+  </section>
+  
+
+  <div class="note-body"><section class="sheet" id="s1" data-title="先講限制"><h2 class="sec"><span class="no">一</span>先講限制</h2>
+<ul class="dots"><li>庫內沒有艾葉的本草性味原文，以下是從方證與醫家原文反推，不是本草條文。</li></ul>
+<p class="note">標「轉錄通行」的方只是醫書收錄的通行古方，不等於該醫家本人的主張；標「景岳自論」「石頑自注」的才是本人見解。</p>
+<ul class="dots"><li>古方出處取自景岳全書、張氏醫通的轉錄；標「轉錄通行」的方不等於該醫家本人的主張。</li><li>教科書引用為部份引用並註明頁碼，頁碼為 PDF 頁。</li></ul>
+</section>
+<section class="sheet" id="s2" data-title="一句話心法"><h2 class="sec"><span class="no">二</span>一句話心法</h2>
+<p>艾葉幾乎不單獨成證，多半是<span class="hl">虛寒或氣血虛</span>的底色上，加在出血或冷痛方裡的藥。</p>
+<ul class="dots"><li>下焦虛寒：暖宮止痛。</li><li><a class="wl k-zx" href="/tcm-site/zx/%E6%B0%A3%E8%99%9B%E8%AD%89">氣虛</a>、<a class="wl k-zx" href="/tcm-site/zx/%E8%A1%80%E8%99%9B%E8%AD%89">血虛</a>失攝的出血：<span class="ci">炒艾葉或艾葉炭</span>。</li><li>妊娠下血、腹痛：膠艾類。</li><li>因寒的<a class="wl k-sx" href="/tcm-site/sx/%E5%90%90%E8%A1%80">吐血</a>：柏葉湯，薑、艾要配柏葉。</li><li><a class="wl k-dz" href="/tcm-site/dz/%E4%B9%85%E7%97%A2">久痢</a>與陰部外洗。</li><li>艾葉在血虛、血寒主幹方裡站在哪裡，另見 <a class="wl k-note" href="/tcm-site/notes/%E8%A1%80%E8%99%9B%E8%88%87%E8%A1%80%E5%AF%92-%E8%89%BE%E8%91%89%E7%AB%99%E5%9C%A8%E5%93%AA%E8%A3%A1">血虛與血寒：艾葉站在哪裡</a>；兩條線交會處見 <a class="wl k-note" href="/tcm-site/notes/%E8%A1%80%E8%99%9B%E8%88%87%E8%A1%80%E5%AF%92-%E8%89%BE%E8%91%89%E7%AB%99%E5%9C%A8%E5%93%AA%E8%A3%A1#s5">血虛寒凝那一段</a>。</li></ul>
+</section>
+<section class="sheet" id="s3" data-title="教科書：出血類"><h2 class="sec"><span class="no">三</span>教科書：出血類</h2>
+<p class="note">出血用炒艾葉、艾葉炭；胎漏與惡露寫艾葉；暖宮止痛都寫艾葉。</p>
+<div class="tablewrap"><table class="ruled"><thead><tr><th>情境</th><th>辨證抓手</th><th>方藥</th><th>出處</th></tr></thead><tbody><tr><td><a class="wl k-sx" href="/tcm-site/sx/%E7%B6%93%E6%9C%9F%E5%BB%B6%E9%95%B7">經期延長</a>・氣虛</td><td>經血色淡質稀、納少便溏、面色㿠白、肢軟乏力</td><td>舉元煎加炒艾葉、炮薑炭、益母草、烏賊骨</td><td>症狀書 頁432</td></tr><tr><td><a class="wl k-sx" href="/tcm-site/sx/%E6%BC%8F%E4%B8%8B">漏下</a>・氣血虛弱</td><td>色淡質稀、神疲、面色無華、頭暈耳鳴、舌淡脈細</td><td>歸脾湯合四物湯加炒艾葉、茜草炭、烏賊骨</td><td>症狀書 頁439</td></tr><tr><td>上環後出血・<a class="wl k-zx" href="/tcm-site/zx/%E6%B0%A3%E8%A1%80%E5%85%A9%E8%99%9B%E8%AD%89">氣血兩虛</a></td><td>時多時少或淋漓、色淡或黯紅、小腹脹墜、脈沉細弱</td><td>歸脾湯加<a class="wl k-herb" href="/tcm-site/herb/%E9%98%BF%E8%86%A0">阿膠</a>、炙升麻、艾葉炭、烏賊骨等</td><td>症狀書 頁541</td></tr><tr><td><a class="wl k-sx" href="/tcm-site/sx/%E6%83%A1%E9%9C%B2%E4%B8%8D%E6%96%B7">惡露不斷</a>・氣虛</td><td>量多色淡、小腹墜脹不痛、脈緩弱</td><td>補中益氣湯加艾葉、烏賊骨</td><td>症狀書 頁505</td></tr><tr><td><a class="wl k-sx" href="/tcm-site/sx/%E8%83%8E%E6%BC%8F">胎漏</a>・氣虛</td><td>漏量少、血淡紅質稀、面色㿠白、怕冷</td><td>補中益氣湯，或舉元煎加阿膠、艾葉</td><td>症狀書 頁489</td></tr><tr><td>胎漏・血虛</td><td>面色淡黃、頭暈目眩、心悸少寐、脈細</td><td>胎元飲或膠艾湯</td><td>症狀書 頁489</td></tr></tbody></table></div>
+</section>
+<section class="sheet" id="s4" data-title="教科書：暖宮止痛類"><h2 class="sec"><span class="no">四</span>教科書：暖宮止痛類</h2>
+<div class="tablewrap"><table class="ruled"><thead><tr><th>情境</th><th>辨證抓手</th><th>方藥</th><th>出處</th></tr></thead><tbody><tr><td><a class="wl k-sx" href="/tcm-site/sx/%E5%A6%8A%E5%A8%A0%E8%85%B9%E7%97%9B">妊娠腹痛</a>・虛寒</td><td>小腹冷痛、得熱痛減、形寒肢冷、苔白滑</td><td>艾附暖宮丸</td><td>症狀書 頁487</td></tr><tr><td>妊娠腹痛・風寒</td><td>發熱惡寒、頭痛身疼、脈浮</td><td>桂枝湯加艾葉、蘇梗、蔥白</td><td>症狀書 頁487</td></tr><tr><td>妊娠腹痛・血虛</td><td>腹痛緩緩、面色萎黃、心悸、脈細</td><td>膠艾湯</td><td>症狀書 頁487</td></tr><tr><td><a class="wl k-sx" href="/tcm-site/sx/%E5%A9%A6%E4%BA%BA%E8%85%B9%E7%97%9B">婦人腹痛</a>・<a class="wl k-zx" href="/tcm-site/zx/%E8%85%8E%E9%99%BD%E8%99%9B%E8%AD%89">腎陽虛</a></td><td>冷痛下墜喜溫喜按、帶下清稀、腰膝痠軟</td><td>溫胞飲加艾葉、香附</td><td>症狀書 頁525</td></tr><tr><td><a class="wl k-sx" href="/tcm-site/sx/%E7%B6%93%E8%A1%8C%E8%85%B9%E7%97%9B">痛經</a>・<a class="wl k-zx" href="/tcm-site/zx/%E9%99%BD%E8%99%9B%E5%AF%92%E5%87%9D%E8%AD%89">陽虛寒凝</a></td><td>經期或經後冷痛、得熱則舒、量少色暗淡</td><td>溫經湯加附子、艾葉、小茴香</td><td>證候書 頁211</td></tr><tr><td><a class="wl k-sx" href="/tcm-site/sx/%E4%B8%8D%E5%AD%95">不孕</a>・虛寒</td><td>月經後期量少色淡、性慾淡漠、體溫偏低</td><td>育孕湯加艾葉、香附</td><td>證候書 頁750</td></tr></tbody></table></div>
+</section>
+<section class="sheet" id="s5" data-title="鑑別：哪些情況不走艾葉"><h2 class="sec"><span class="no">五</span>鑑別：哪些情況不走艾葉</h2>
+<p class="note">同一症狀相鄰兩型，只有虛寒或氣虛那一型加艾葉。</p>
+<ul class="dots"><li>漏下：<a class="wl k-zx" href="/tcm-site/zx/%E9%99%B0%E8%99%9B%E8%A1%80%E7%86%B1%E8%AD%89">陰虛血熱</a>用保陰煎加阿膠、茜草炭、仙鶴草；艾葉只在氣血虛弱那一型（症狀書 頁439）。</li><li>惡露不斷：<a class="wl k-zx" href="/tcm-site/zx/%E8%A1%80%E7%98%80%E8%AD%89">血瘀</a>型改用生化湯加茜草、三七（症狀書 頁505）。</li><li><a class="wl k-sx" href="/tcm-site/sx/%E7%B6%93%E8%89%B2%E7%B4%AB%E9%BB%AF">經色紫黯</a>：寒邪凝滯以溫經湯為主，血虛有寒才用膠艾四物湯（症狀書 頁419）。</li></ul>
+</section>
+<section class="sheet" id="s6" data-title="醫家怎麼讀"><h2 class="sec"><span class="no">六</span>醫家怎麼讀</h2>
+<h3>張璐（石頑）</h3>
+<p>柏葉湯把血逆歸於火旺，薑、艾是辛溫散結、避免留瘀，並與專用炭類止血對比：</p>
+<blockquote>血逆不止。當責之於火旺。故用柏葉治其旺氣。即兼薑、艾之辛溫散結。使無留滯之患。（醫通L4455）</blockquote>
+<h3>張錫純</h3>
+<p>把柏葉湯讀成因寒氣逆的吐血良方：薑、艾暖胃，馬通汁降胃，柏葉鎮肝涼肝，防薑、艾辛熱動相火。又說藥炭止血對吐衄要慎。</p>
+<h3>張景岳</h3>
+<blockquote>若觸損胎氣,胞宮受傷而血下者,宜安胎散、膠艾湯。去血多者,倍加人參（景岳L5786）</blockquote>
+</section>
+<section class="sheet" id="s7" data-title="古方裡的艾葉"><h2 class="sec"><span class="no">七</span>古方裡的艾葉</h2>
+<div class="tablewrap"><table class="ruled"><thead><tr><th>方</th><th>原文主治</th><th>艾葉的位置</th><th>出處</th></tr></thead><tbody><tr><td>安胎散</td><td>妊娠卒然腰痛下血</td><td>艾葉一錢，配熟地、阿膠、地榆、黃耆</td><td>景岳L13540</td></tr><tr><td>膠艾湯（金匱）</td><td>勞傷血氣、衝任虛損、月水過多、淋瀝不止</td><td>艾葉、當歸各兩半</td><td>景岳L13808</td></tr><tr><td>人參黃耆湯</td><td>小產氣虛、血下不止</td><td>艾葉一錢</td><td>景岳L13678</td></tr><tr><td>《奇效》四物湯</td><td>肝經虛熱、血沸騰而崩</td><td>艾葉（炒）半兩，配黃芩</td><td>景岳L13862</td></tr><tr><td>小已寒丸</td><td>脾胃積冷中寒、洞泄倦怠</td><td>艾葉四兩，配蒼朮、吳茱萸、陳皮</td><td>景岳L12441</td></tr><tr><td>千金厚朴湯</td><td>二三年熱痢不止</td><td>艾葉五錢，配黃連、乾薑、阿膠</td><td>醫通L5133</td></tr></tbody></table></div>
+</section>
+<section class="sheet" id="s8" data-title="有分歧之處"><h2 class="sec"><span class="no">八</span>有分歧之處</h2>
+<ul class="dots"><li>柏葉湯的寒熱：石頑責火旺，張錫純讀因寒，庫內校對也標為方向未定；共同點是薑、艾要有柏葉牽制。</li><li>艾葉不限寒證：《奇效》四物湯配黃芩、千金厚朴湯配黃連，書中沒有解釋，這裡不替它補理由。</li><li>艾附暖宮丸出處：症狀書方表標《沈氏尊生書》，證候書方表標《仁齋直指方》。</li><li>膠艾湯的地黃：景岳寫熟地，教科書方表寫生地或地黃。</li></ul>
+</section>
+<section class="sheet" id="s9" data-title="判讀順序（整理者歸納）"><h2 class="sec"><span class="no">九</span>判讀順序（整理者歸納）</h2>
+<p class="note">以下是依上列文獻歸納，不是任何單一醫家的原話。</p>
+<ul class="dots"><li><span class="hl">先看主訴是出血還是冷痛。</span></li><li>色淡質稀、喜溫喜按、面色㿠白、形寒肢冷、舌淡脈細弱，才走艾葉。</li><li><span class="ul">有熱象或血瘀，教科書改走別的方。</span></li><li>出血用炒或炭，暖宮止痛用生；配伍隨底色（氣虛配阿膠、烏賊骨；陽虛配香附、小茴香）。</li><li><span class="hl2">吐衄若用薑、艾，要配柏葉。</span></li></ul></section></div>
+
+
+  
+  <section class="sheet" id="links-sheet" data-title="關聯">
+    <h2 class="sec"><span class="no">連</span>關聯</h2>
+    <p class="note">圓點＝本篇和它連到的筆記、證型、症狀、中藥、疾病；滑過看相鄰，點一下前往。</p>
+    <div class="gv-wrap"><svg id="gv" role="img" aria-label="本篇關聯圖"></svg></div>
+    <p class="gv-legend"><span class="k-note">● 筆記</span><span class="k-zx">● 證型</span><span class="k-sx">● 症狀</span><span class="k-herb">● 中藥</span><span class="k-dz">● 疾病</span><span class="k-miss">○ 資料庫還沒有</span></p>
+    <h3 class="sub-h">反向連結<span class="cnt">3</span></h3>
+    
+    <ul class="dots backlinks"><li><a class="wl k-note" href="/tcm-site/notes/氣虛-從病性到疾病與用藥">氣虛：從一個病性走到疾病與用藥</a><span class="muted">　以氣虛證為起點，先看它怎麼發展（加重、化生、及陽），再攤開證型家族、庫內掛到哪些疾病，最後接補氣方與補氣藥的分工；補中益氣與升陷湯的分歧也一併整理。</span></li><li><a class="wl k-note" href="/tcm-site/notes/血虛與血寒-艾葉站在哪裡">血虛與血寒：艾葉站在哪裡</a><span class="muted">　從血虛、血寒、血虛寒凝三條線看主幹方，核對藥味後發現：主幹方幾乎都不含艾葉，艾葉是下焦胞宮與出血、安胎的專用支線。</span></li><li><a class="wl k-note" href="/tcm-site/notes/衷中-山楂解">山楂解：入血分化瘀，酸甘相合則不傷新血</a><span class="muted">　山楂味至酸微甘、性平，善入血分化瘀，又助胃酸消食、尤消肉積；張錫純強調佐以甘草或蔗糖，酸甘相合可化瘀而不傷新血。附月信不來、痢疾初得兩個單方，並轉錄《本草綱目》治腸風下血、痘疹乾黑兩方。</span></li></ul>
+    
+    <h3 class="sub-h">本篇連到</h3>
+    
+    <p class="out-row"><span class="out-k">筆記</span><a class="wl chip k-note" href="/tcm-site/notes/%E8%A1%80%E8%99%9B%E8%88%87%E8%A1%80%E5%AF%92-%E8%89%BE%E8%91%89%E7%AB%99%E5%9C%A8%E5%93%AA%E8%A3%A1">血虛與血寒：艾葉站在哪裡</a></p>
+    
+    <p class="out-row"><span class="out-k">證型</span><a class="wl chip k-zx" href="/tcm-site/zx/%E6%B0%A3%E8%99%9B%E8%AD%89">氣虛證</a><a class="wl chip k-zx" href="/tcm-site/zx/%E8%A1%80%E8%99%9B%E8%AD%89">血虛證</a><a class="wl chip k-zx" href="/tcm-site/zx/%E6%B0%A3%E8%A1%80%E5%85%A9%E8%99%9B%E8%AD%89">氣血兩虛證</a><a class="wl chip k-zx" href="/tcm-site/zx/%E8%85%8E%E9%99%BD%E8%99%9B%E8%AD%89">腎陽虛證</a><a class="wl chip k-zx" href="/tcm-site/zx/%E9%99%BD%E8%99%9B%E5%AF%92%E5%87%9D%E8%AD%89">陽虛寒凝證</a><a class="wl chip k-zx" href="/tcm-site/zx/%E9%99%B0%E8%99%9B%E8%A1%80%E7%86%B1%E8%AD%89">陰虛血熱證</a><a class="wl chip k-zx" href="/tcm-site/zx/%E8%A1%80%E7%98%80%E8%AD%89">血瘀證</a></p>
+    
+    <p class="out-row"><span class="out-k">症狀</span><a class="wl chip k-sx" href="/tcm-site/sx/%E5%90%90%E8%A1%80">吐血</a><a class="wl chip k-sx" href="/tcm-site/sx/%E7%B6%93%E6%9C%9F%E5%BB%B6%E9%95%B7">經期延長</a><a class="wl chip k-sx" href="/tcm-site/sx/%E6%BC%8F%E4%B8%8B">漏下</a><a class="wl chip k-sx" href="/tcm-site/sx/%E6%83%A1%E9%9C%B2%E4%B8%8D%E6%96%B7">惡露不斷</a><a class="wl chip k-sx" href="/tcm-site/sx/%E8%83%8E%E6%BC%8F">胎漏</a><a class="wl chip k-sx" href="/tcm-site/sx/%E5%A6%8A%E5%A8%A0%E8%85%B9%E7%97%9B">妊娠腹痛</a><a class="wl chip k-sx" href="/tcm-site/sx/%E5%A9%A6%E4%BA%BA%E8%85%B9%E7%97%9B">婦人腹痛</a><a class="wl chip k-sx" href="/tcm-site/sx/%E7%B6%93%E8%A1%8C%E8%85%B9%E7%97%9B">痛經</a><a class="wl chip k-sx" href="/tcm-site/sx/%E4%B8%8D%E5%AD%95">不孕</a><a class="wl chip k-sx" href="/tcm-site/sx/%E7%B6%93%E8%89%B2%E7%B4%AB%E9%BB%AF">經色紫黯</a></p>
+    
+    <p class="out-row"><span class="out-k">中藥</span><a class="wl chip k-herb" href="/tcm-site/herb/%E9%98%BF%E8%86%A0">阿膠</a></p>
+    
+    <p class="out-row"><span class="out-k">疾病</span><a class="wl chip k-dz" href="/tcm-site/dz/%E4%B9%85%E7%97%A2">久痢</a></p>
+    
+  </section>
+</article>
+<div id="pv" class="pv" role="tooltip" hidden></div>
+<script type="application/json" id="nb-data">{"mm": {"t": "艾葉", "c": [{"t": "出血（炒／炭）", "c": [{"t": "氣虛、氣血兩虛", "c": [{"t": "[[經期延長]]：舉元煎加炒艾葉、炮薑炭", "c": []}, {"t": "[[漏下]]：歸脾合四物加炒艾葉、茜草炭", "c": []}, {"t": "上環後出血：歸脾加艾葉炭、阿膠", "c": []}, {"t": "[[惡露不斷]]：補中益氣加艾葉、烏賊骨", "c": []}]}, {"t": "[[胎漏]]", "c": [{"t": "氣虛：舉元煎加阿膠、艾葉", "c": []}, {"t": "血虛：胎元飲或膠艾湯", "c": []}]}, {"t": "[[吐血]]（因寒）：柏葉湯，薑艾要配柏葉", "c": []}]}, {"t": "冷痛暖宮（生用）", "c": [{"t": "[[妊娠腹痛]]：虛寒用艾附暖宮丸，血虛用膠艾湯", "c": []}, {"t": "[[婦人腹痛]]（腎陽虛）：溫胞飲加艾葉、香附", "c": []}, {"t": "[[痛經]]（陽虛寒凝）：溫經湯加附子、艾葉、小茴香", "c": []}, {"t": "[[不孕]]（虛寒）：育孕湯加艾葉、香附", "c": []}]}, {"t": "不走艾葉", "c": [{"t": "[[陰虛血熱證|陰虛血熱]]：保陰煎加阿膠、茜草炭", "c": []}, {"t": "[[血瘀證|血瘀]]：生化湯加茜草、三七", "c": []}, {"t": "寒邪凝滯：溫經湯為主", "c": []}]}, {"t": "有分歧", "c": [{"t": "柏葉湯：石頑責火旺，張錫純讀因寒", "c": []}, {"t": "艾葉配黃芩或黃連：書中未解釋", "c": []}, {"t": "艾附暖宮丸出處：沈氏尊生書／仁齋直指方", "c": []}]}, {"t": "延伸閱讀", "c": [{"t": "[[血虛與血寒-艾葉站在哪裡|血虛與血寒：艾葉站在哪裡]]", "c": []}]}]}, "links": {"氣虛證": "/zx/%E6%B0%A3%E8%99%9B%E8%AD%89", "血虛證": "/zx/%E8%A1%80%E8%99%9B%E8%AD%89", "吐血": "/sx/%E5%90%90%E8%A1%80", "久痢": "/dz/%E4%B9%85%E7%97%A2", "血虛與血寒：艾葉站在哪裡": "/notes/%E8%A1%80%E8%99%9B%E8%88%87%E8%A1%80%E5%AF%92-%E8%89%BE%E8%91%89%E7%AB%99%E5%9C%A8%E5%93%AA%E8%A3%A1", "血虛與血寒：艾葉站在哪裡#血虛寒凝：兩條線的交集": "/notes/%E8%A1%80%E8%99%9B%E8%88%87%E8%A1%80%E5%AF%92-%E8%89%BE%E8%91%89%E7%AB%99%E5%9C%A8%E5%93%AA%E8%A3%A1#s5", "經期延長": "/sx/%E7%B6%93%E6%9C%9F%E5%BB%B6%E9%95%B7", "漏下": "/sx/%E6%BC%8F%E4%B8%8B", "氣血兩虛證": "/zx/%E6%B0%A3%E8%A1%80%E5%85%A9%E8%99%9B%E8%AD%89", "阿膠": "/herb/%E9%98%BF%E8%86%A0", "惡露不斷": "/sx/%E6%83%A1%E9%9C%B2%E4%B8%8D%E6%96%B7", "胎漏": "/sx/%E8%83%8E%E6%BC%8F", "妊娠腹痛": "/sx/%E5%A6%8A%E5%A8%A0%E8%85%B9%E7%97%9B", "婦人腹痛": "/sx/%E5%A9%A6%E4%BA%BA%E8%85%B9%E7%97%9B", "腎陽虛證": "/zx/%E8%85%8E%E9%99%BD%E8%99%9B%E8%AD%89", "痛經": "/sx/%E7%B6%93%E8%A1%8C%E8%85%B9%E7%97%9B", "陽虛寒凝證": "/zx/%E9%99%BD%E8%99%9B%E5%AF%92%E5%87%9D%E8%AD%89", "不孕": "/sx/%E4%B8%8D%E5%AD%95", "陰虛血熱證": "/zx/%E9%99%B0%E8%99%9B%E8%A1%80%E7%86%B1%E8%AD%89", "血瘀證": "/zx/%E8%A1%80%E7%98%80%E8%AD%89", "經色紫黯": "/sx/%E7%B6%93%E8%89%B2%E7%B4%AB%E9%BB%AF", "血虛與血寒-艾葉站在哪裡": "/notes/%E8%A1%80%E8%99%9B%E8%88%87%E8%A1%80%E5%AF%92-%E8%89%BE%E8%91%89%E7%AB%99%E5%9C%A8%E5%93%AA%E8%A3%A1"}, "graph": {"nodes": [{"id": "/notes/氣虛-從病性到疾病與用藥", "label": "氣虛：從一個病性走到疾病與用藥", "kind": "筆記", "url": "/notes/%E6%B0%A3%E8%99%9B-%E5%BE%9E%E7%97%85%E6%80%A7%E5%88%B0%E7%96%BE%E7%97%85%E8%88%87%E7%94%A8%E8%97%A5", "me": false}, {"id": "/notes/艾葉-處方時機與判讀", "label": "艾葉：什麼時候開、怎麼判讀", "kind": "筆記", "url": "/notes/%E8%89%BE%E8%91%89-%E8%99%95%E6%96%B9%E6%99%82%E6%A9%9F%E8%88%87%E5%88%A4%E8%AE%80", "me": true}, {"id": "/zx/氣虛證", "label": "氣虛證", "kind": "證型", "url": "/zx/%E6%B0%A3%E8%99%9B%E8%AD%89", "me": false}, {"id": "/zx/血虛證", "label": "血虛證", "kind": "證型", "url": "/zx/%E8%A1%80%E8%99%9B%E8%AD%89", "me": false}, {"id": "/sx/吐血", "label": "吐血", "kind": "症狀", "url": "/sx/%E5%90%90%E8%A1%80", "me": false}, {"id": "/dz/久痢", "label": "久痢", "kind": "疾病", "url": "/dz/%E4%B9%85%E7%97%A2", "me": false}, {"id": "/notes/血虛與血寒-艾葉站在哪裡", "label": "血虛與血寒：艾葉站在哪裡", "kind": "筆記", "url": "/notes/%E8%A1%80%E8%99%9B%E8%88%87%E8%A1%80%E5%AF%92-%E8%89%BE%E8%91%89%E7%AB%99%E5%9C%A8%E5%93%AA%E8%A3%A1", "me": false}, {"id": "/sx/經期延長", "label": "經期延長", "kind": "症狀", "url": "/sx/%E7%B6%93%E6%9C%9F%E5%BB%B6%E9%95%B7", "me": false}, {"id": "/sx/漏下", "label": "漏下", "kind": "症狀", "url": "/sx/%E6%BC%8F%E4%B8%8B", "me": false}, {"id": "/zx/氣血兩虛證", "label": "氣血兩虛證", "kind": "證型", "url": "/zx/%E6%B0%A3%E8%A1%80%E5%85%A9%E8%99%9B%E8%AD%89", "me": false}, {"id": "/herb/阿膠", "label": "阿膠", "kind": "中藥", "url": "/herb/%E9%98%BF%E8%86%A0", "me": false}, {"id": "/sx/惡露不斷", "label": "惡露不斷", "kind": "症狀", "url": "/sx/%E6%83%A1%E9%9C%B2%E4%B8%8D%E6%96%B7", "me": false}, {"id": "/sx/胎漏", "label": "胎漏", "kind": "症狀", "url": "/sx/%E8%83%8E%E6%BC%8F", "me": false}, {"id": "/sx/妊娠腹痛", "label": "妊娠腹痛", "kind": "症狀", "url": "/sx/%E5%A6%8A%E5%A8%A0%E8%85%B9%E7%97%9B", "me": false}, {"id": "/sx/婦人腹痛", "label": "婦人腹痛", "kind": "症狀", "url": "/sx/%E5%A9%A6%E4%BA%BA%E8%85%B9%E7%97%9B", "me": false}, {"id": "/zx/腎陽虛證", "label": "腎陽虛證", "kind": "證型", "url": "/zx/%E8%85%8E%E9%99%BD%E8%99%9B%E8%AD%89", "me": false}, {"id": "/sx/經行腹痛", "label": "痛經", "kind": "症狀", "url": "/sx/%E7%B6%93%E8%A1%8C%E8%85%B9%E7%97%9B", "me": false}, {"id": "/zx/陽虛寒凝證", "label": "陽虛寒凝證", "kind": "證型", "url": "/zx/%E9%99%BD%E8%99%9B%E5%AF%92%E5%87%9D%E8%AD%89", "me": false}, {"id": "/sx/不孕", "label": "不孕", "kind": "症狀", "url": "/sx/%E4%B8%8D%E5%AD%95", "me": false}, {"id": "/zx/陰虛血熱證", "label": "陰虛血熱證", "kind": "證型", "url": "/zx/%E9%99%B0%E8%99%9B%E8%A1%80%E7%86%B1%E8%AD%89", "me": false}, {"id": "/zx/血瘀證", "label": "血瘀證", "kind": "證型", "url": "/zx/%E8%A1%80%E7%98%80%E8%AD%89", "me": false}, {"id": "/sx/經色紫黯", "label": "經色紫黯", "kind": "症狀", "url": "/sx/%E7%B6%93%E8%89%B2%E7%B4%AB%E9%BB%AF", "me": false}, {"id": "/notes/衷中-山楂解", "label": "山楂解：入血分化瘀，酸甘相合則不傷新血", "kind": "筆記", "url": "/notes/%E8%A1%B7%E4%B8%AD-%E5%B1%B1%E6%A5%82%E8%A7%A3", "me": false}], "links": [[0, 1], [1, 2], [1, 3], [1, 4], [1, 5], [1, 6], [1, 7], [1, 8], [1, 9], [1, 10], [1, 11], [1, 12], [1, 13], [1, 14], [1, 15], [1, 16], [1, 17], [1, 18], [1, 19], [1, 20], [1, 21], [1, 22]]}, "previews": {"/dz/%E4%B9%85%E7%97%A2": {"k": "疾病", "t": "久痢", "s": ""}, "/herb/%E9%98%BF%E8%86%A0": {"k": "中藥", "t": "阿膠", "s": ""}, "/notes/%E8%A1%80%E8%99%9B%E8%88%87%E8%A1%80%E5%AF%92-%E8%89%BE%E8%91%89%E7%AB%99%E5%9C%A8%E5%93%AA%E8%A3%A1": {"k": "筆記", "t": "血虛與血寒：艾葉站在哪裡", "s": "從血虛、血寒、血虛寒凝三條線看主幹方，核對藥味後發現：主幹方幾乎都不含艾葉，艾葉是下焦胞宮與出血、安胎的專用支線。"}, "/notes/氣虛-從病性到疾病與用藥": {"k": "筆記", "t": "氣虛：從一個病性走到疾病與用藥", "s": "以氣虛證為起點，先看它怎麼發展（加重、化生、及陽），再攤開證型家族、庫內掛到哪些疾病，最後接補氣方與補氣藥的分工；補中益氣與升陷湯的分歧也一併整理。"}, "/notes/血虛與血寒-艾葉站在哪裡": {"k": "筆記", "t": "血虛與血寒：艾葉站在哪裡", "s": "從血虛、血寒、血虛寒凝三條線看主幹方，核對藥味後發現：主幹方幾乎都不含艾葉，艾葉是下焦胞宮與出血、安胎的專用支線。"}, "/notes/衷中-山楂解": {"k": "筆記", "t": "山楂解：入血分化瘀，酸甘相合則不傷新血", "s": "山楂味至酸微甘、性平，善入血分化瘀，又助胃酸消食、尤消肉積；張錫純強調佐以甘草或蔗糖，酸甘相合可化瘀而不傷新血。附月信不來、痢疾初得兩個單方，並轉錄《本草綱目》治腸風下血、痘疹乾黑…"}, "/sx/%E4%B8%8D%E5%AD%95": {"k": "症狀", "t": "不孕", "s": "生育期婦女婚後有正常性生活、男方生殖功能正常，未避孕同居兩年以上未能受孕（原發不孕），或曾妊娠而間隔兩年以上未再受孕（繼發不孕）"}, "/sx/%E5%90%90%E8%A1%80": {"k": "症狀", "t": "吐血", "s": "胃、食道出血，經口吐出，多挾有食物殘渣"}, "/sx/%E5%A6%8A%E5%A8%A0%E8%85%B9%E7%97%9B": {"k": "症狀", "t": "妊娠腹痛", "s": ""}, "/sx/%E5%A9%A6%E4%BA%BA%E8%85%B9%E7%97%9B": {"k": "症狀", "t": "婦人腹痛", "s": "婦女不在行經、妊娠及產後期間發生小腹或少腹疼痛，甚則痛連腰骶者，亦稱「婦人腹中痛」"}, "/sx/%E6%83%A1%E9%9C%B2%E4%B8%8D%E6%96%B7": {"k": "症狀", "t": "惡露不斷", "s": ""}, "/sx/%E6%BC%8F%E4%B8%8B": {"k": "症狀", "t": "漏下", "s": "經血非時而下、淋漓不止達數十天甚至數月不止，又稱「經漏」"}, "/sx/%E7%B6%93%E6%9C%9F%E5%BB%B6%E9%95%B7": {"k": "症狀", "t": "經期延長", "s": "月經週期正常、但行經時間超過七天以上、甚或淋漓半月方止"}, "/sx/%E7%B6%93%E8%89%B2%E7%B4%AB%E9%BB%AF": {"k": "症狀", "t": "經色紫黯", "s": ""}, "/sx/%E7%B6%93%E8%A1%8C%E8%85%B9%E7%97%9B": {"k": "症狀", "t": "經行腹痛", "s": "婦女正值經期或經行前後，出現週期性的小腹疼痛難忍的症狀，又稱「痛經」"}, "/sx/%E8%83%8E%E6%BC%8F": {"k": "症狀", "t": "胎漏", "s": "妊娠前半期，陰道不時少量出血，或點滴不止，或時有時無的症狀"}, "/zx/%E6%B0%A3%E8%99%9B%E8%AD%89": {"k": "證型", "t": "氣虛證", "s": "機體臟腑功能衰退、元氣不足而出現的全身性虛弱證候。屬虛證範疇。"}, "/zx/%E6%B0%A3%E8%A1%80%E5%85%A9%E8%99%9B%E8%AD%89": {"k": "證型", "t": "氣血兩虛證", "s": "機體「氣」與「血」二方面虧損，導致人體生命活動物質基礎不足、臟腑功能衰退的一種證候。病變部位主在脾胃。"}, "/zx/%E8%85%8E%E9%99%BD%E8%99%9B%E8%AD%89": {"k": "證型", "t": "腎陽虛證", "s": "元陽不足、氣化無權而出現的溫煦失職、水濕內盛以及性機能衰弱等臨床表現的概稱。又稱命門火衰證。"}, "/zx/%E8%A1%80%E7%98%80%E8%AD%89": {"k": "證型", "t": "血瘀證", "s": "血行不暢、甚至停滯凝聚，或離經之血積於體內、影響氣血運行所產生的證候。"}, "/zx/%E8%A1%80%E8%99%9B%E8%AD%89": {"k": "證型", "t": "血虛證", "s": "體內血液不足、肢體臟腑五官百脈失於濡養而出現的全身性衰弱證候。"}, "/zx/%E9%99%B0%E8%99%9B%E8%A1%80%E7%86%B1%E8%AD%89": {"k": "證型", "t": "陰虛血熱證", "s": "陰液虧虛、虛熱入血，以心煩口渴、潮熱顴紅、口乾咽癢、大便乾結，或咳血吐衄、斑疹等為臨床表現的證候。"}, "/zx/%E9%99%BD%E8%99%9B%E5%AF%92%E5%87%9D%E8%AD%89": {"k": "證型", "t": "陽虛寒凝證", "s": "陽氣虛衰、溫煦不足，陰寒內盛、凝滯於內，產生一系列虛寒性病變的證候。"}}}</script>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs><filter id="rough" x="-8%" y="-8%" width="116%" height="116%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="7" result="n"/>
+    <feDisplacementMap in="SourceGraphic" in2="n" scale="3"/></filter></defs>
+</svg>
+<script src="/tcm-site/static/vendor/rough.js" defer></script>
+<script src="/tcm-site/static/vendor/rough-notation.iife.js" defer></script>
+<script src="/tcm-site/static/notes.js" defer></script>
+
+</main>
+<footer>唯讀鏡像 · 真相源＝_pipeline／小卡量產 · 診斷手冊 Web<br>
+古籍引文＝公有領域逐字原文；現行教科書內容均為部份引用（簡體原文已轉繁體），出處標註於各條目</footer>
+</body>
+</html>

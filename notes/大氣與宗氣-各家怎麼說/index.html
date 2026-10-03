@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>大氣與宗氣：各家怎麼說 · 筆記</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Iansui&family=LXGW+WenKai+TC:wght@400;700&display=swap">
+<link rel="stylesheet" href="/tcm-site/static/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='25' font-size='24'%3E%E8%A8%BA%3C/text%3E%3C/svg%3E">
+</head>
+<body class="notes-page">
+<header>
+  <nav>
+    <a href="/tcm-site/" class="brand">診斷手冊</a>
+    <a href="/tcm-site/sx/">症狀</a>
+    <a href="/tcm-site/zx/">證型</a>
+    <a href="/tcm-site/diagnose/">診斷</a>
+    <a href="/tcm-site/evo/">演化圖</a>
+    <a href="/tcm-site/notes/" class="nav-notes">筆記</a>
+    <a href="/tcm-site/db">db</a>
+  </nav>
+  <form action="/tcm-site/search/" method="get" class="searchbox">
+    <input type="search" name="q" placeholder="搜 症狀／證型／疾病／中藥／方藥"
+           value="">
+    <button>搜尋</button>
+  </form>
+</header>
+<main>
+
+<article class="notebook" id="note">
+  
+  <section class="sheet">
+    
+    <p class="hand-back"><a href="/tcm-site/notes/">← 筆記專區</a></p>
+    
+    <h1 class="title">大氣與宗氣：各家怎麼說</h1>
+    <p class="sub">張錫純的「胸中大氣」不是憑空而來：從《內經》的宗氣，到喻嘉言〈大氣論〉、孫一奎〈宗氣營氣衛氣說〉、周學海〈氣血精神論〉，各家怎麼定義它、說它管什麼、虛了會怎樣。</p>
+    <div class="card"><i class="tape"></i>
+      <dl>
+          <dt>日期</dt><dd>2026-10-01</dd>
+          <dt>標籤</dt><dd>#大氣 #宗氣 #醫家心得 #醫學衷中參西錄 </dd></dl>
+    </div>
+    <p class="legend"><span>黑筆＝整理</span><span class="r">紅筆＝批註</span><span><span class="hl">黃螢光</span>＝關鍵句</span><span><span class="hl2">綠螢光</span>＝治法</span><span><span class="ci">紅圈</span>＝要記住的詞</span><span><a class="wl k-zx" href="#links-sheet">藍字</a>＝連到資料庫／其他筆記</span></p>
+    <div class="tools" role="toolbar" aria-label="閱讀工具">
+      <input type="search" id="nfilter" placeholder="篩選：輸入症狀／方名／藥名，表格與條列即時過濾" autocomplete="off" aria-label="篩選筆記內容">
+      <button type="button" id="t-note" aria-pressed="true">批註</button>
+      <button type="button" id="t-hl" aria-pressed="true">螢光筆</button>
+      <span class="muted" id="nhit"></span>
+    </div>
+    <nav class="toc" id="toc" aria-label="章節"></nav>
+    
+  </section>
+  
+
+  
+  <section class="sheet" id="mindmap-sheet">
+    <h2 class="sec"><span class="no">圖</span>心智圖</h2>
+    <p class="note">點節點可收合／展開；「全部展開」「全部收合」在右上。</p>
+    <div class="mm-tools"><button type="button" id="mm-open">全部展開</button><button type="button" id="mm-close">全部收合</button></div>
+    <div class="mm-wrap"><svg id="mm" role="img" aria-label="本篇心智圖"></svg></div>
+  </section>
+  
+
+  <div class="note-body"><section class="sheet" id="s1" data-title="先講限制"><h2 class="sec"><span class="no">一</span>先講限制</h2>
+<ul class="dots"><li>本篇是讀書筆記，不是診療建議。</li><li>引文全取自原文庫（中醫笈成電子校本），標書名與篇名；各家的書我只讀了直接談大氣、宗氣的那一節。</li><li>頁尾「原文索引」是用關鍵詞自動比對的出處清單，還有很多書沒讀到。</li></ul>
+</section>
+<section class="sheet" id="s2" data-title="結論先看"><h2 class="sec"><span class="no">二</span>結論先看</h2>
+<ul class="dots"><li><span class="hl">各家都把它放在胸中，都說它司呼吸</span>；差別在它和營衛的關係，以及它會不會「陷」。</li><li>喻嘉言最早把「大氣」提出來當主角，但他<span class="ci">明言大氣不是宗氣</span>；張錫純反過來把大氣等同宗氣，並把「下陷」發展成一個證和一組方（<a class="wl k-note" href="/tcm-site/notes/%E8%A1%B7%E4%B8%AD-%E5%8D%87%E9%99%B7%E6%B9%AF">升陷湯：胸中大氣下陷的主方</a>）。</li><li>周學海的說法最接近臨床：宗氣是動氣，虛則短促少氣。</li></ul>
+</section>
+<section class="sheet" id="s3" data-title="《內經》的底本"><h2 class="sec"><span class="no">三</span>《內經》的底本</h2>
+<ul class="dots"><li>張錫純與周學海都引同一組經文：《靈樞》邪客篇「宗氣積於胸中，出於喉嚨，以貫心脈，而行呼吸」，與五味篇「其大氣之摶而不行者，積於胸中，命曰氣海」（《醫學衷中參西錄》醫方·升陷湯；《讀醫隨筆》卷一·氣血精神論，皆引此）。</li><li>張錫純另引《素問》平人氣象論的虛里（左乳下動脈）為宗氣之餘波，以及《靈樞》五色篇「大氣入於臟腑者，不病而卒死」為下陷之據（《醫學衷中參西錄》醫方·升陷湯）。</li></ul>
+</section>
+<section class="sheet" id="s4" data-title="喻嘉言：大氣主持一切"><h2 class="sec"><span class="no">四</span>喻嘉言：大氣主持一切</h2>
+<blockquote>其所以統攝營衛、臟腑、經絡，而令充周無間，環流不息，通體節節皆靈者，全賴胸中大氣，為之主持。（《醫門法律》卷一·大氣論）</blockquote>
+<blockquote>大氣一衰，則出入廢，升降息，神機化滅，氣立孤危矣。（《醫門法律》卷一·大氣論）</blockquote>
+<ul class="dots"><li>喻嘉言把營氣、衛氣、宗氣、臟腑之氣、經絡之氣並列，再說統攝它們的是胸中大氣（同上，改寫）。</li><li>他也引《金匱》「大氣一轉，其氣乃散」；張錫純自述正是讀到這兩處，才給胸中之氣定名為大氣（《醫學衷中參西錄》醫方·升陷湯）。</li><li><span class="hl">喻嘉言同一段裡明確反對「大氣即膻中之氣」與「大氣即宗氣之別名」</span>：宗氣與營氣、衛氣分為三隧，有隧可言，就不是空洞無著的大氣（《醫門法律》卷一·大氣論，改寫）。</li></ul>
+<blockquote>膻中既為臣使之官，有其職位矣，是未可言大氣也。（《醫門法律》卷一·大氣論）</blockquote>
+<blockquote>宗氣之診在左乳下，原不與大氣混診也。（《醫門法律》卷一·大氣論）</blockquote>
+<ul class="dots"><li>那大氣在哪裡診？喻嘉言引《內經》寸口「右外以候肺，內以候胸中」，說大氣之診在右寸（同上，改寫）。</li><li>他並舉《金匱》胸痹心痛短氣一門為大氣之病，治法重在通胸中之陽（桂枝去芍藥加麻黃附子、薤白白酒類）（同上，改寫）。</li></ul>
+</section>
+<section class="sheet" id="s5" data-title="孫一奎：宗氣是氣之宗主"><h2 class="sec"><span class="no">五</span>孫一奎：宗氣是氣之宗主</h2>
+<blockquote>宗氣者，為言氣之宗主也，此氣搏於胸中，混混沌沌，人莫得而見其端倪，此其體也。（《醫旨緒餘》上卷·宗氣營氣衛氣說）</blockquote>
+<ul class="dots"><li>它的作用：肺得之而為呼，腎得之而為吸，營得之而營於中，衛得之而衛於外（同上）。</li><li>孫一奎把胸中等同膻中，稱為氣之海，並說三焦為氣之父，故宗氣出於上焦（同上，改寫）。</li></ul>
+</section>
+<section class="sheet" id="s6" data-title="周學海：宗氣是動氣"><h2 class="sec"><span class="no">六</span>周學海：宗氣是動氣</h2>
+<blockquote>宗氣者，動氣也。凡呼吸言語聲音，以及肢體運動、筋力強弱者，宗氣之功用也。虛則短促少氣，實則喘喝脹滿。（《讀醫隨筆》卷一·氣血精神論）</blockquote>
+<ul class="dots"><li>他說宗氣是營衛之所合，出於肺、積於氣海（同上，改寫）。</li><li>又說宗氣不到則痿痹而不用（同上）——這和張錫純用黃耆升補大氣治痿廢（<a class="wl k-note" href="/tcm-site/notes/%E8%A1%B7%E4%B8%AD-%E9%BB%83%E8%80%86%E8%A7%A3">黃耆解：補氣兼升氣的「補藥之長」</a>）的思路相通，但兩人是否有承接關係，書中沒有說。</li></ul>
+</section>
+<section class="sheet" id="s7" data-title="張介賓：上焦是宗氣所聚"><h2 class="sec"><span class="no">七</span>張介賓：上焦是宗氣所聚</h2>
+<blockquote>上焦者，肺之所居，宗氣之所聚。（《類經》八卷·經絡類·營衛三焦）</blockquote>
+</section>
+<section class="sheet" id="s8" data-title="張錫純：大氣即宗氣，而且會陷"><h2 class="sec"><span class="no">八</span>張錫純：大氣即宗氣，而且會陷</h2>
+<blockquote>大氣者，充滿胸中，以司肺呼吸之氣也。（《醫學衷中參西錄》醫方·升陷湯）</blockquote>
+<ul class="dots"><li>他的推進有三點（整理者歸納）：</li><li>把大氣與宗氣明確等同（<span class="ul">這一點與喻嘉言正相反</span>），並說它以元氣為根、水穀之氣為養、胸中為宅窟。</li><li>把「下陷」立成一個證：短氣、努力呼吸似喘、脈沉遲微弱關前尤甚。</li><li>立了升陷湯一組方，並指出補中益氣湯所治有不少其實是大氣下陷（見 <a class="wl k-note" href="/tcm-site/notes/%E6%B0%A3%E8%99%9B-%E5%BE%9E%E7%97%85%E6%80%A7%E5%88%B0%E7%96%BE%E7%97%85%E8%88%87%E7%94%A8%E8%97%A5#s9">氣虛：從一個病性走到疾病與用藥 › 中氣還是大氣：補中益氣與升陷湯</a>）。</li></ul>
+</section>
+<section class="sheet" id="s9" data-title="對照表"><h2 class="sec"><span class="no">九</span>對照表</h2>
+<div class="tablewrap"><table class="ruled"><thead><tr><th>醫家</th><th>名稱</th><th>位置</th><th>管什麼</th><th>虛了怎樣</th></tr></thead><tbody><tr><td>喻嘉言</td><td>大氣（≠宗氣、≠膻中之氣）</td><td>胸中；診在右寸</td><td>統攝營衛、臟腑、經絡</td><td>出入廢、升降息</td></tr><tr><td>孫一奎</td><td>宗氣</td><td>胸中（膻中、氣海）</td><td>呼吸、營衛之行</td><td>本節未論</td></tr><tr><td>周學海</td><td>宗氣</td><td>出於肺、積於氣海</td><td>呼吸言語、肢體運動、筋力</td><td>短促少氣；不到則痿痹</td></tr><tr><td>張介賓</td><td>宗氣</td><td>上焦</td><td>本節只說所聚</td><td>本節未論</td></tr><tr><td>張錫純</td><td>大氣（即宗氣）</td><td>胸中</td><td>撐持全身、司呼吸、貫心脈</td><td>下陷：短氣、似喘，甚則呼吸頓停</td></tr></tbody></table></div>
+</section>
+<section class="sheet" id="s10" data-title="有分歧之處"><h2 class="sec"><span class="no">十</span>有分歧之處</h2>
+<ul class="dots"><li><strong>大氣是不是宗氣</strong>：喻嘉言說不是，宗氣與營衛同為三隧之一，診在左乳下；張錫純說是，還引虛里（正是左乳下動脈）為大氣之餘波。兩人用同一組經文，得出相反的結論。</li><li><strong>胸中與膻中</strong>：喻嘉言不同意大氣即膻中之氣；孫一奎則說胸中即膻中、為氣之海。</li><li><strong>診法</strong>：喻嘉言以右寸候大氣；張錫純描述大氣下陷的脈是「關前尤甚」、多案「右部尤甚」，兩者在脈位上其實相近（整理者對照）。</li><li><strong>治法方向</strong>：喻嘉言講大氣之病多舉胸痹，重在通陽開痹；張錫純講大氣之病重在升補。</li><li>「陷」只有張錫純發展成證；其他幾家在本節裡都沒有談宗氣下陷。</li></ul>
+</section>
+<section class="sheet" id="s11" data-title="待查"><h2 class="sec"><span class="no">一</span>待查</h2>
+<ul class="dots"><li>喻嘉言〈大氣論〉所附「律」一條，以及他胸痹諸方的完整論述還沒讀。</li><li>柯韻伯「大氣之積於胸中而司呼吸者為宗氣」一說，是周學海轉引的，要找柯韻伯原書核對。</li></ul></section></div>
+
+
+  
+  <section class="sheet" id="srcidx-sheet" data-title="原文索引">
+    <h2 class="sec"><span class="no">索</span>原文索引</h2>
+    <p class="note">關鍵詞：「胸中大氣」「宗氣」。在原文庫逐行比對，只列出處與次數，不搬原文；內容要回原書看。</p>
+    
+    <h3 class="sub-h">其他書<span class="cnt">106 本</span></h3>
+    
+    <div class="tablewrap"><table class="ruled srcidx-t"><thead><tr><th>書</th><th>作者</th><th>次數</th><th>提到最多的節</th></tr></thead><tbody>
+    <tr><td>醫學衷中參西錄</td><td>張錫純（清）</td><td>176</td><td><span class="bpath"><span>一、醫方</span><span>（三）治大氣下陷方</span><span>1．升陷湯</span></span>（47）<br><span class="bpath"><span>三、醫論</span><span>60．論腦貧血治法</span></span>（11）<br><span class="bpath"><span>三、醫論</span><span>61．論腦貧血痿廢治法</span></span>（7）</td></tr><tr><td>黃帝內經靈樞集註</td><td>張志聰（清）</td><td>95</td><td><span class="bpath"><span>卷八</span><span>邪客第七十一</span></span>（19）<br><span class="bpath"><span>卷九</span><span>刺節真邪第七十五</span></span>（11）<br><span class="bpath"><span>卷四</span><span>五亂第三十四</span></span>（9）</td></tr><tr><td>類經</td><td>張介賓（明）</td><td>59</td><td><span class="bpath"><span>五卷</span><span>脈色類</span><span>十一、脈分四時無胃曰死</span></span>（9）<br><span class="bpath"><span>八卷</span><span>經絡類</span><span>二十三、營衛三焦</span></span>（9）<br><span class="bpath"><span>二十一卷</span><span>針刺類</span><span>三十五、解結推引</span></span>（6）</td></tr><tr><td>黃帝內經素問集註</td><td>張志聰（清）</td><td>54</td><td><span class="bpath"><span>卷三</span><span>平人氣象論篇第十八</span></span>（17）<br><span class="bpath"><span>卷四</span><span>通評虛實論篇第二十八</span></span>（12）<br><span class="bpath"><span>卷三</span><span>脈要精微論篇第十七</span></span>（4）</td></tr><tr><td>醫門法律</td><td>喻昌（清）</td><td>31</td><td><span class="bpath"><span>卷一</span><span>一明胸中大氣之法</span><span>大氣論（附律一條）</span></span>（7）<br><span class="bpath"><span>卷六</span><span>虛勞門</span><span>虛勞脈論</span></span>（7）<br><span class="bpath"><span>卷一</span><span>一明辨息之法</span><span>辨息論（附律一條）</span></span>（4）</td></tr><tr><td>景岳全書</td><td>張介賓（明）</td><td>23</td><td><span class="bpath"><span>卷之十七理集·雜證謨</span><span>脾胃</span><span>經義</span></span>（4）<br><span class="bpath"><span>卷之三十六天集·雜證謨</span><span>諸氣</span><span>經義</span></span>（3）<br><span class="bpath"><span>卷之四道集</span><span>脈神章（上）</span><span>《內經》脈義</span></span>（2）</td></tr><tr><td>黃帝內經太素</td><td>楊上善（唐）</td><td>23</td><td><span class="bpath"><span>卷第十五·診候之二</span><span>尺寸診</span></span>（8）<br><span class="bpath"><span>卷第十二（卷首缺）·營衛氣</span><span>營衛氣行</span></span>（4）<br><span class="bpath"><span>卷第二十二·九針之二</span><span>五邪刺</span></span>（3）</td></tr><tr><td>馮氏錦囊秘錄</td><td>馮楚瞻（清）</td><td>21</td><td><span class="bpath"><span>雜症大小合參卷六</span><span>方脈鼻病合參</span></span>（3）<br><span class="bpath"><span>雜症大小合參卷一</span><span>辨宗氣衛氣營氣</span></span>（2）<br><span class="bpath"><span>雜症大小合參卷二</span><span>內景圖說</span></span>（2）</td></tr><tr><td>讀醫隨筆</td><td>周學海（清）</td><td>20</td><td><span class="bpath"><span>卷一</span><span>證治總論</span><span>氣血精神論</span></span>（13）<br><span class="bpath"><span>卷二上</span><span>形氣類</span><span>氣能生血血能藏氣</span></span>（6）<br><span class="bpath"><span>卷六</span><span>評釋類</span><span>讀《內經》注疑五條</span></span>（1）</td></tr><tr><td>醫旨緒餘</td><td>孫一奎（明）</td><td>20</td><td><span class="bpath"><span>上卷</span><span>二十三、宗氣營氣衛氣說</span></span>（14）<br><span class="bpath"><span>上卷</span><span>二十、原呼吸</span></span>（6）</td></tr><tr><td>脈訣彙辨</td><td>李延是（清）</td><td>18</td><td><span class="bpath"><span>卷七</span><span>聲診</span><span>息</span></span>（7）<br><span class="bpath"><span>卷二</span></span>（6）<br><span class="bpath"><span>卷十</span><span>經絡</span><span>宗營衛三氣解</span></span>（4）</td></tr><tr><td>醫宗金鑑</td><td>吳謙（清）</td><td>18</td><td><span class="bpath"><span>卷二</span><span>辨衇法篇</span></span>（6）<br><span class="bpath"><span>卷三</span><span>四診心法要訣</span></span>（5）<br><span class="bpath"><span>卷二</span><span>辨可吐病衇證篇</span></span>（2）</td></tr>
+    </tbody></table></div>
+    <p class="muted">只列次數最多的 12 本。</p>
+    
+  </section>
+  
+  <section class="sheet" id="links-sheet" data-title="關聯">
+    <h2 class="sec"><span class="no">連</span>關聯</h2>
+    <p class="note">圓點＝本篇和它連到的筆記、證型、症狀、中藥、疾病；滑過看相鄰，點一下前往。</p>
+    <div class="gv-wrap"><svg id="gv" role="img" aria-label="本篇關聯圖"></svg></div>
+    <p class="gv-legend"><span class="k-note">● 筆記</span><span class="k-zx">● 證型</span><span class="k-sx">● 症狀</span><span class="k-herb">● 中藥</span><span class="k-dz">● 疾病</span><span class="k-miss">○ 資料庫還沒有</span></p>
+    <h3 class="sub-h">反向連結<span class="cnt">7</span></h3>
+    
+    <ul class="dots backlinks"><li><a class="wl k-note" href="/tcm-site/notes/衷中-升陷湯">升陷湯：胸中大氣下陷的主方</a><span class="muted">　讀這一方，先要分清「短氣」和「喘」。張錫純把胸中撐持呼吸的那一口氣叫作大氣；大氣陷下去時，病人努力呼吸，看起來像喘。醫者若當喘去降、當鬱去開，等於把人往井裡推。方子只有五味藥：一味補、一味濟、兩路升提、一舟載上，沒有一味是閒筆。</span></li><li><a class="wl k-note" href="/tcm-site/notes/衷中-桂枝解">桂枝解：升大氣、降逆氣、散邪氣</a><span class="muted">　張錫純以升大氣、降逆氣、散邪氣三句概括桂枝，特別翻出《本經》主咳逆上氣、主吐吸，說桂枝能降氣定喘；又說桂枝非發汗亦非止汗之品；上焦有熱、素有血證者忌用，並以受熱風誤服桂枝致吐血一案為戒。</span></li><li><a class="wl k-note" href="/tcm-site/notes/衷中-薯蕷納氣湯">薯蕷納氣湯：專治陰虛不納氣作喘</a><span class="muted">　與參赭鎮氣湯對舉：前方治陰陽兩虛作喘，此方專治陰虛作喘。張錫純用沖脈連腎連胃、肝行腎氣兩條路，解釋腎虛不攝何以逆氣上迫肺而喘；並提出膈上大氣、膈下中氣、臍下元氣的三氣說。</span></li><li><a class="wl k-note" href="/tcm-site/notes/衷中-論腦貧血治法">論腦貧血治法：上氣不足，腦為之不滿</a><span class="muted">　腦貧血與腦充血相反；張錫純認為單用補血必不能愈，要峻補胸中宗氣助血上行，以補血湯（黃耆一兩、當歸三錢）為的方；附論小兒慢驚囟陷、真陰寒頭疼與腦髓空的治法。</span></li><li><a class="wl k-note" href="/tcm-site/notes/衷中-醫案-大小便病門">醫案·大小便病門：虛寒泄瀉發灼、受風白濁、受寒尿閉</a><span class="muted">　大小便病門三案：過午發熱的泄瀉其實是下焦虛寒兼大氣虛，用大劑溫補加芍藥斂陽；小便白濁因風寒入肝、疏泄太過，用黃耆桂枝逐風、萸肉龍牡固腎；小便因寒閉塞用參附桂薑加椒目、靈仙溫通。</span></li><li><a class="wl k-note" href="/tcm-site/notes/衷中-醫案-氣病門">醫案·氣病門：大氣下陷五案與氣逆四案</a><span class="muted">　醫案部氣病門共九案，正好分成方向相反的兩組：前五案是大氣下陷，往上托；後四案是沖氣、胃氣上逆，往下鎮。每案都照病因、證候、診斷、處方、效果寫成，是張錫純晚年最規整的病歷。兩組並讀，升與降、柴胡與赭石，在同一門裡互相照見。</span></li><li><a class="wl k-note" href="/tcm-site/notes/衷中-醫案-霍亂門">醫案·霍亂門：脈閉身涼仍以熱論，暴脫重用萸肉</a><span class="muted">　醫案部霍亂門四案：兼轉筋、吐瀉、脫證、暴脫證。張錫純認為霍亂屬陽宜涼者十居其八，脈無力或閉、肢涼都不能遽斷為寒，要看心中熱不熱；暴脫一案單用萸肉六錢救回，據此說萸肉救脫勝人參。</span></li></ul>
+    
+    <h3 class="sub-h">本篇連到</h3>
+    
+    <p class="out-row"><span class="out-k">筆記</span><a class="wl chip k-note" href="/tcm-site/notes/%E8%A1%B7%E4%B8%AD-%E5%8D%87%E9%99%B7%E6%B9%AF">升陷湯：胸中大氣下陷的主方</a><a class="wl chip k-note" href="/tcm-site/notes/%E8%A1%B7%E4%B8%AD-%E9%BB%83%E8%80%86%E8%A7%A3">黃耆解：補氣兼升氣的「補藥之長」</a><a class="wl chip k-note" href="/tcm-site/notes/%E6%B0%A3%E8%99%9B-%E5%BE%9E%E7%97%85%E6%80%A7%E5%88%B0%E7%96%BE%E7%97%85%E8%88%87%E7%94%A8%E8%97%A5">氣虛：從一個病性走到疾病與用藥</a></p>
+    
+  </section>
+</article>
+<div id="pv" class="pv" role="tooltip" hidden></div>
+<script type="application/json" id="nb-data">{"mm": {"t": "大氣與宗氣", "c": [{"t": "經文底本", "c": [{"t": "邪客：宗氣積於胸中", "c": []}, {"t": "五味：大氣積於胸中", "c": []}, {"t": "平人氣象：虛里", "c": []}]}, {"t": "喻嘉言", "c": [{"t": "大氣統攝一切", "c": []}, {"t": "大氣≠宗氣、≠膻中", "c": []}, {"t": "診在右寸", "c": []}]}, {"t": "孫一奎：宗氣為氣之宗主", "c": []}, {"t": "周學海：宗氣是動氣", "c": []}, {"t": "張介賓：上焦宗氣所聚", "c": []}, {"t": "張錫純", "c": [{"t": "大氣即宗氣", "c": []}, {"t": "下陷成證：[[衷中-升陷湯|升陷湯]]", "c": []}]}, {"t": "分歧", "c": [{"t": "是不是宗氣", "c": []}, {"t": "通陽 vs 升補", "c": []}]}]}, "links": {"衷中-升陷湯": "/notes/%E8%A1%B7%E4%B8%AD-%E5%8D%87%E9%99%B7%E6%B9%AF", "衷中-黃耆解": "/notes/%E8%A1%B7%E4%B8%AD-%E9%BB%83%E8%80%86%E8%A7%A3", "氣虛-從病性到疾病與用藥#中氣還是大氣：補中益氣與升陷湯": "/notes/%E6%B0%A3%E8%99%9B-%E5%BE%9E%E7%97%85%E6%80%A7%E5%88%B0%E7%96%BE%E7%97%85%E8%88%87%E7%94%A8%E8%97%A5#s9"}, "graph": {"nodes": [{"id": "/notes/大氣與宗氣-各家怎麼說", "label": "大氣與宗氣：各家怎麼說", "kind": "筆記", "url": "/notes/%E5%A4%A7%E6%B0%A3%E8%88%87%E5%AE%97%E6%B0%A3-%E5%90%84%E5%AE%B6%E6%80%8E%E9%BA%BC%E8%AA%AA", "me": true}, {"id": "/notes/衷中-升陷湯", "label": "升陷湯：胸中大氣下陷的主方", "kind": "筆記", "url": "/notes/%E8%A1%B7%E4%B8%AD-%E5%8D%87%E9%99%B7%E6%B9%AF", "me": false}, {"id": "/notes/衷中-黃耆解", "label": "黃耆解：補氣兼升氣的「補藥之長」", "kind": "筆記", "url": "/notes/%E8%A1%B7%E4%B8%AD-%E9%BB%83%E8%80%86%E8%A7%A3", "me": false}, {"id": "/notes/氣虛-從病性到疾病與用藥", "label": "氣虛：從一個病性走到疾病與用藥", "kind": "筆記", "url": "/notes/%E6%B0%A3%E8%99%9B-%E5%BE%9E%E7%97%85%E6%80%A7%E5%88%B0%E7%96%BE%E7%97%85%E8%88%87%E7%94%A8%E8%97%A5", "me": false}, {"id": "/notes/衷中-桂枝解", "label": "桂枝解：升大氣、降逆氣、散邪氣", "kind": "筆記", "url": "/notes/%E8%A1%B7%E4%B8%AD-%E6%A1%82%E6%9E%9D%E8%A7%A3", "me": false}, {"id": "/notes/衷中-薯蕷納氣湯", "label": "薯蕷納氣湯：專治陰虛不納氣作喘", "kind": "筆記", "url": "/notes/%E8%A1%B7%E4%B8%AD-%E8%96%AF%E8%95%B7%E7%B4%8D%E6%B0%A3%E6%B9%AF", "me": false}, {"id": "/notes/衷中-論腦貧血治法", "label": "論腦貧血治法：上氣不足，腦為之不滿", "kind": "筆記", "url": "/notes/%E8%A1%B7%E4%B8%AD-%E8%AB%96%E8%85%A6%E8%B2%A7%E8%A1%80%E6%B2%BB%E6%B3%95", "me": false}, {"id": "/notes/衷中-醫案-大小便病門", "label": "醫案·大小便病門：虛寒泄瀉發灼、受風白濁、受寒尿閉", "kind": "筆記", "url": "/notes/%E8%A1%B7%E4%B8%AD-%E9%86%AB%E6%A1%88-%E5%A4%A7%E5%B0%8F%E4%BE%BF%E7%97%85%E9%96%80", "me": false}, {"id": "/notes/衷中-醫案-氣病門", "label": "醫案·氣病門：大氣下陷五案與氣逆四案", "kind": "筆記", "url": "/notes/%E8%A1%B7%E4%B8%AD-%E9%86%AB%E6%A1%88-%E6%B0%A3%E7%97%85%E9%96%80", "me": false}, {"id": "/notes/衷中-醫案-霍亂門", "label": "醫案·霍亂門：脈閉身涼仍以熱論，暴脫重用萸肉", "kind": "筆記", "url": "/notes/%E8%A1%B7%E4%B8%AD-%E9%86%AB%E6%A1%88-%E9%9C%8D%E4%BA%82%E9%96%80", "me": false}], "links": [[0, 1], [0, 2], [0, 3], [0, 4], [0, 5], [0, 6], [0, 7], [0, 8], [0, 9]]}, "previews": {"/notes/%E6%B0%A3%E8%99%9B-%E5%BE%9E%E7%97%85%E6%80%A7%E5%88%B0%E7%96%BE%E7%97%85%E8%88%87%E7%94%A8%E8%97%A5": {"k": "筆記", "t": "氣虛：從一個病性走到疾病與用藥", "s": "以氣虛證為起點，先看它怎麼發展（加重、化生、及陽），再攤開證型家族、庫內掛到哪些疾病，最後接補氣方與補氣藥的分工；補中益氣與升陷湯的分歧也一併整理。"}, "/notes/%E8%A1%B7%E4%B8%AD-%E5%8D%87%E9%99%B7%E6%B9%AF": {"k": "筆記", "t": "升陷湯：胸中大氣下陷的主方", "s": "讀這一方，先要分清「短氣」和「喘」。張錫純把胸中撐持呼吸的那一口氣叫作大氣；大氣陷下去時，病人努力呼吸，看起來像喘。醫者若當喘去降、當鬱去開，等於把人往井裡推。方子只有五味藥：一味…"}, "/notes/%E8%A1%B7%E4%B8%AD-%E9%BB%83%E8%80%86%E8%A7%A3": {"k": "筆記", "t": "黃耆解：補氣兼升氣的「補藥之長」", "s": "這一節表面上講一味藥，實際上講的是用藥的人。同一根黃耆，大氣下陷的自汗服之即止，陽強陰虛的汗服之大汗如雨；脈弱的痿廢重用見效，脈強的痿廢誤用凶危立見。張錫純在節末說得最直白：止汗與…"}, "/notes/衷中-升陷湯": {"k": "筆記", "t": "升陷湯：胸中大氣下陷的主方", "s": "讀這一方，先要分清「短氣」和「喘」。張錫純把胸中撐持呼吸的那一口氣叫作大氣；大氣陷下去時，病人努力呼吸，看起來像喘。醫者若當喘去降、當鬱去開，等於把人往井裡推。方子只有五味藥：一味…"}, "/notes/衷中-桂枝解": {"k": "筆記", "t": "桂枝解：升大氣、降逆氣、散邪氣", "s": "張錫純以升大氣、降逆氣、散邪氣三句概括桂枝，特別翻出《本經》主咳逆上氣、主吐吸，說桂枝能降氣定喘；又說桂枝非發汗亦非止汗之品；上焦有熱、素有血證者忌用，並以受熱風誤服桂枝致吐血一案…"}, "/notes/衷中-薯蕷納氣湯": {"k": "筆記", "t": "薯蕷納氣湯：專治陰虛不納氣作喘", "s": "與參赭鎮氣湯對舉：前方治陰陽兩虛作喘，此方專治陰虛作喘。張錫純用沖脈連腎連胃、肝行腎氣兩條路，解釋腎虛不攝何以逆氣上迫肺而喘；並提出膈上大氣、膈下中氣、臍下元氣的三氣說。"}, "/notes/衷中-論腦貧血治法": {"k": "筆記", "t": "論腦貧血治法：上氣不足，腦為之不滿", "s": "腦貧血與腦充血相反；張錫純認為單用補血必不能愈，要峻補胸中宗氣助血上行，以補血湯（黃耆一兩、當歸三錢）為的方；附論小兒慢驚囟陷、真陰寒頭疼與腦髓空的治法。"}, "/notes/衷中-醫案-大小便病門": {"k": "筆記", "t": "醫案·大小便病門：虛寒泄瀉發灼、受風白濁、受寒尿閉", "s": "大小便病門三案：過午發熱的泄瀉其實是下焦虛寒兼大氣虛，用大劑溫補加芍藥斂陽；小便白濁因風寒入肝、疏泄太過，用黃耆桂枝逐風、萸肉龍牡固腎；小便因寒閉塞用參附桂薑加椒目、靈仙溫通。"}, "/notes/衷中-醫案-氣病門": {"k": "筆記", "t": "醫案·氣病門：大氣下陷五案與氣逆四案", "s": "醫案部氣病門共九案，正好分成方向相反的兩組：前五案是大氣下陷，往上托；後四案是沖氣、胃氣上逆，往下鎮。每案都照病因、證候、診斷、處方、效果寫成，是張錫純晚年最規整的病歷。兩組並讀，…"}, "/notes/衷中-醫案-霍亂門": {"k": "筆記", "t": "醫案·霍亂門：脈閉身涼仍以熱論，暴脫重用萸肉", "s": "醫案部霍亂門四案：兼轉筋、吐瀉、脫證、暴脫證。張錫純認為霍亂屬陽宜涼者十居其八，脈無力或閉、肢涼都不能遽斷為寒，要看心中熱不熱；暴脫一案單用萸肉六錢救回，據此說萸肉救脫勝人參。"}}}</script>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs><filter id="rough" x="-8%" y="-8%" width="116%" height="116%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="7" result="n"/>
+    <feDisplacementMap in="SourceGraphic" in2="n" scale="3"/></filter></defs>
+</svg>
+<script src="/tcm-site/static/vendor/rough.js" defer></script>
+<script src="/tcm-site/static/vendor/rough-notation.iife.js" defer></script>
+<script src="/tcm-site/static/notes.js" defer></script>
+
+</main>
+<footer>唯讀鏡像 · 真相源＝_pipeline／小卡量產 · 診斷手冊 Web<br>
+古籍引文＝公有領域逐字原文；現行教科書內容均為部份引用（簡體原文已轉繁體），出處標註於各條目</footer>
+</body>
+</html>
